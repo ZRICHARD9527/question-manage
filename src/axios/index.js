@@ -3,7 +3,6 @@ import axios from "axios";
 
 const instance = axios.create({
     //baseURL: "http://localhost:8188/",//基本路径
-    baseURL: "https://xcx-web.looyeagee.cn/api/v1",
     timeout: 10000,// 请求超时时间
 })
 
